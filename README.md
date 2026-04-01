@@ -44,10 +44,10 @@ Most implementation repositories are private (IP protection), but each major app
 
 ### 1) MEXC Trading Dashboard + Multi-Mode Bot
 
-![MEXC Dashboard](https://raw.githubusercontent.com/logicencoder/mexc-trading-dashboard-bot-overview/main/assets/mexc-trading-dashboard-bot-overview.png)
+![MEXC Dashboard](https://raw.githubusercontent.com/logicencoder/mexc_trading_app-overview/main/assets/mexc-trading-dashboard-bot-overview.png)
 
-- Overview repo: `https://github.com/logicencoder/mexc-trading-dashboard-bot-overview`
-- Private implementation: `logicencoder/mexc-trading-dashboard-bot-suite` (+ `logicencoder/mexc_trading_app`)
+- Overview repo: `https://github.com/logicencoder/mexc_trading_app-overview`
+- Private implementation: `logicencoder/mexc_trading_app`
 - Delivery mode: standalone local-first application
 - Live website mode: not the primary target for this app
 - Scope: manual execution + multi-mode automation + realtime orderbook/trades + diagnostics
