@@ -1,9 +1,9 @@
-# LogicEncoder — Python/FastAPI Realtime Portfolio
+# LogicEncoder Portfolio
 
 This portfolio is a practical map of what I build.
 I am self-taught, built these systems from zero, and keep improving by shipping, measuring, and iterating.
 
-Most implementation repositories are private (IP protection), but each major app has a public overview with architecture, feature scope, and screenshots.
+Each app uses a **code repo** (`{app}`) plus an **overview repo** (`{app}-overview`) for marketing, screenshots, and scope. Implementation details live in [`ARCHITECTURE.md`](ARCHITECTURE.md) inside code repos where applicable.
 
 ## What I Focus On
 
@@ -55,11 +55,11 @@ Most implementation repositories are private (IP protection), but each major app
 
 ### 2) MEXC Exchange — Live Trading Statistics (WordPress + FastAPI)
 
-![MEXC Exchange Live Stats](https://raw.githubusercontent.com/logicencoder/mexc-live-stats-plugin-overview-public/main/screenshot.png)
+![MEXC Exchange Live Stats](https://raw.githubusercontent.com/logicencoder/mexc-live-stats-plugin-overview/main/screenshot.png)
 
-- Backend overview repo: `https://github.com/logicencoder/mexc-live-stats-backend-overview-public`
-- Plugin overview repo: `https://github.com/logicencoder/mexc-live-stats-plugin-overview-public`
-- Private implementation repos: `logicencoder/mexc-live-stats-backend-private` + `logicencoder/mexc-live-stats-plugin-private`
+- Backend overview repo: `https://github.com/logicencoder/mexc-live-stats-backend-overview`
+- Plugin overview repo: `https://github.com/logicencoder/mexc-live-stats-plugin-overview`
+- Private implementation repos: `logicencoder/mexc-live-stats-backend` + `logicencoder/mexc-live-stats-plugin`
 - Delivery mode: live web deployment (WordPress frontend + private FastAPI backend)
 - Live URL: `https://logicencoder.com/mexc-app/`
 - Scope: realtime exchange statistics UI, async ingestion/aggregation backend, snapshot/SEO publishing flow
@@ -67,12 +67,11 @@ Most implementation repositories are private (IP protection), but each major app
 
 ### 3) ETH Gas Tracker
 
-![ETH Gas Tracker](https://raw.githubusercontent.com/logicencoder/eth-gas-tracker-overview/main/assets/eth-gas-tracker-overview.png)
+![ETH Gas Tracker](https://raw.githubusercontent.com/logicencoder/eth-gas-live-backend-overview/main/assets/eth-gas-tracker-overview.png)
 
-- Standalone overview repo: `https://github.com/logicencoder/eth-gas-tracker-overview`
-- Live backend overview repo: `https://github.com/logicencoder/eth-gas-live-backend-overview-public`
-- Live plugin overview repo: `https://github.com/logicencoder/eth-gas-live-plugin-overview-public`
-- Private implementation repos: `logicencoder/eth_gas_tracker`, `logicencoder/eth-gas-live-backend-private`, `logicencoder/eth-gas-live-plugin-private`
+- Product overview: `https://github.com/logicencoder/eth-gas-live-backend-overview`
+- Live plugin overview repo: `https://github.com/logicencoder/eth-gas-live-plugin-overview`
+- Code repos: `logicencoder/eth-gas-live-backend`, `logicencoder/eth-gas-live-plugin` (legacy: `eth-gas-tracker-legacy-archived`)
 - Delivery mode: local-first runtime + live WordPress deployment
 - Live URL: `https://logicencoder.com/ethereum-gas-tracker/`
 - Scope: realtime gas intelligence, heatmaps, calculator, alerts, mission-control observability
